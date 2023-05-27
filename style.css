@@ -1,5 +1,5 @@
 html{
-    font-family: sans-serif;
+    font-family: 'Roboto', arial;
 }
 
 .nav_stuff{
@@ -21,17 +21,20 @@ html{
     max-width: 500px;
 }
 
-.heading_stuff{
+.container-fluid{
     display: flex;
+    flex-wrap: nowrap;
+
     color: #F9FAF8;
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 2em;
 }
-.left_text h1{
+.heading_h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight:bold;
+    font-family: 'Roboto', arial;
 }
 .button {
     background-color: #3882f6;
@@ -45,6 +48,12 @@ html{
     margin: 4px 2px;
     cursor: pointer;
     height: 40px;
+  }
+  #left_text{
+    padding:none;
+  }
+  #right_img{
+    padding:none;
   }
 .button_signup{
     border-radius: 10px;
