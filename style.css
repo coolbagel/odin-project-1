@@ -109,16 +109,26 @@ footer{
     text-align: center;
     color: white;
 }
-#epic-signup{
-    padding-right:2em;
-}
-#epic-signup-button{
-    padding-left: 2em;
-}
-#container-signup{
-    margin:90px;
+.epic-signup{
+    display: flex;
     background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px;
+    margin-bottom:90px;
+    margin-left:190px;
+    margin-right:190px;
+    padding: 2em;
+    border-radius: 15px;
+}
+.epic-signup-button{
+    display: block;
+    margin-left: 3em;
+}
+.epic-signup-text{
+    display: block;
+    margin-right: 3em;
 }
 #signup_2{
-    border: 5px solid white;
+    border: 3px solid white;
 }
