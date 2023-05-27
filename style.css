@@ -65,31 +65,21 @@ html{
     padding-top: 1em;
     padding-bottom: 1em;
 }
-#super-cool-epic-gallery-of-awesomeness{
-    padding-left:5em;
-    padding-right:5em;
-    align-items: center;
+.super-cool-epic-gallery-of-awesomeness{
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
-.epic-gallery{
-    border: 3px solid blue;
+.epic-img img{
+    border: 5px solid blue;
     border-radius: 12px;
-    
-    max-width:200px;
+    width: 200px;
+  height: 200px;
     align-items: center;
     justify-content: center;
 }
-
-figure img {
-    vertical-align: top;
-    margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
-  max-height: 300px;
-  min-width: 300px;
-  min-height: 300px;
-}
-figure figcaption {
-    text-align: center;
+.epic-img{
+    display:block;
+    margin:2em;
 }
