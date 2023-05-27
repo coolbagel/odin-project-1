@@ -33,8 +33,19 @@ html{
     font-size: 48px;
     font-weight: bold;
 }
-button{
+.button {
+    background-color: #3882f6;
+    border: none;
     color: white;
-    background: #3882f6;
-    border-radius: 2px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+  }
+.button_signup{
+    border-radius: 10px;
 }
