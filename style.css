@@ -6,15 +6,27 @@ html{
     background: #1f2937;
 }
 
+.left-text{
+    flex-basis: 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 2em;
+}
+.right_image{
+    display:flex;
+    flex-basis: 5em;
+    text-align: right;
+    margin-left:2em;
+}
 
-
-
-.container-fluid{
-    padding-bottom: 5em;
-    padding-top: 1em;
-    max-width: 100%;
-    color: white;
-    background: #1f2937;
+.heading_stuff{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 .container h1{
     margin: 0em;
