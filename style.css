@@ -4,6 +4,8 @@ html{
 
 .nav_stuff{
     background: #1f2937;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .left-text{
@@ -61,4 +63,33 @@ html{
 #epic-cool-pics-heading{
     text-align: center;
     padding-top: 1em;
+    padding-bottom: 1em;
+}
+#super-cool-epic-gallery-of-awesomeness{
+    padding-left:5em;
+    padding-right:5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+.epic-gallery{
+    border: 3px solid blue;
+    border-radius: 12px;
+    
+    max-width:200px;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img {
+    vertical-align: top;
+    margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 300px;
+}
+figure figcaption {
+    text-align: center;
 }
