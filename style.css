@@ -1,0 +1,22 @@
+html{
+    font-family: sans-serif;
+}
+
+.nav_stuff{
+    background: #1f2937;
+}
+
+
+
+
+.container-fluid{
+    padding-bottom: 5em;
+    padding-top: 1em;
+    max-width: 100%;
+    color: white;
+    background: #1f2937;
+}
+.container h1{
+    margin: 0em;
+    padding-top: 1em;
+}
