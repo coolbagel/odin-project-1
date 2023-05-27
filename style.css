@@ -11,13 +11,14 @@ html{
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 2em;
+    margin-right: 5em;
 }
 .right_image{
     display:flex;
     flex-basis: 5em;
     text-align: right;
-    margin-left:2em;
+    margin-left:5em;
+    max-width: 500px;
 }
 
 .heading_stuff{
@@ -28,7 +29,12 @@ html{
     justify-content: center;
     padding: 90px;
 }
-.container h1{
-    margin: 0em;
-    padding-top: 1em;
+.left_text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+button{
+    color: white;
+    background: #3882f6;
+    border-radius: 2px;
 }
